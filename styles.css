@@ -1,0 +1,40 @@
+/* Reset some default styles */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:cadetblue;
+    color: #fff;
+}
+
+/* Logo styles */
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Navigation styles */
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #ff6347; /* Tomato color */
+}
